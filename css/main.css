@@ -1,0 +1,93 @@
+html, body{
+    padding: 0px;
+    margin: 0px;
+    background: white;
+    font-color: black;
+    font-size: 100%;
+    background-color: #EBFFEE; 
+}
+
+#game-board, #result-table{
+    display: inline-block;
+}
+
+#board{
+    background: url('../images/soccer_field.svg.hi.png') no-repeat 50% 50%;
+    padding-top: 30px;
+}
+
+button{
+    color:#08233e;
+    font:1.7em Futura, ‘Century Gothic’, AppleGothic, sans-serif;
+    padding:5px;
+    border:1px solid #ffcc00;
+    -moz-border-radius:10px;-webkit-border-radius:10px;border-radius:10px;
+    border-bottom:1px solid #9f9f9f;
+    -moz-box-shadow:inset 0 1px 0 rgba(255,255,255,0.5);-webkit-box-shadow:inset 0 1px 0 rgba(255,255,255,0.5);box-shadow:inset 0 1px 0 rgba(255,255,255,0.5);
+    cursor:pointer;
+    width: 40px;
+    height: 40px;
+}
+
+button:hover{background-color:rgba(255,204,0,0.8);}
+
+ button.checked{
+    color: red;
+    text-decoration: line-through;
+    border: 1px solid #ffcc00;
+}
+
+.game-cell{
+    padding: 5px;
+}
+
+footer{
+    margin-top: 15px;
+    padding: 15px 5px 5px;;
+    text-align: center;
+    border-top: 1px solid #ccc;
+    width: 100%;
+    background-color: #EBFFEE; 
+
+}
+
+#abort{
+    margin-top: 15px;
+}
+
+
+#timer{
+    margin-top: 5px;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+#wrapper{
+    margin: 30px auto 0px;
+    text-align: center;
+    width: 960px;
+    border-radius: 12px; 
+    -moz-border-radius: 12px; 
+    -webkit-border-radius: 12px; 
+    border: 1px solid #638004;
+    background-color: #B8FFBF; 
+}
+
+
+div.radio {
+    position: relative;
+    float: left;
+    margin-right: 10px;
+}
+
+.form-row{width: 130px;text-align: left;clear: both;margin: 5px auto;}
+.form-submit{margin: 10px 0px;}
+
+
+
+
+
+
+
+
+
